@@ -1,0 +1,106 @@
+9:620  0:012  Found UEFI Acpi 2.0 RSDP at 4FFFE014
+9:620  0:000  Saving ACPI tables from RSDP 4FFFE014 to EFI\CLOVER\ACPI\origin ...
+9:620  0:000   4FFFE014: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
+9:632  0:012    (Xsdt: 4FFC1188, Rsdt: 4FFC10C4)
+9:632  0:000    4FFC1188: 'XSDT', 'TP-N1M', Rev: 1, Len: 260 -> XSDT.aml
+9:647  0:014    4FFC10C4: 'RSDT', 'TP-N1M', Rev: 1, Len: 148 -> RSDT.aml
+9:659  0:012    Tables in Xsdt: 28
+9:659  0:000    0. 4FFF5000: 'FACP', 'TP-N1M', Rev: 5, Len: 244
+9:659  0:000        (Dsdt: 4FFCF000, Facs: 4FF3E000, XDsdt: 4FFCF000, XFacs: 0)
+9:659  0:000        4FFCF000: 'DSDT', 'SKL', Rev: 2, Len: 136238
+9:661  0:001        4FF3E000: 'FACS', Ver: 2, Len: 64 -> FACS.aml
+9:674  0:012    1. 4FFFC000: 'SSDT', 'Tpm2Tabl', Rev: 2, Len: 972 -> SSDT-0-Tpm2Tabl.aml
+9:685  0:011    2. 4FFFB000: 'TPM2', 'TP-N1M', Rev: 3, Len: 52 -> TPM2.aml
+9:697  0:011    3. 4FF53000: 'UEFI', 'TP-N1M', Rev: 1, Len: 66 -> UEFI.aml
+9:710  0:013    4. 4FFF7000: 'SSDT', 'SaSsdt', Rev: 2, Len: 12506 -> SSDT-1-SaSsdt.aml
+9:722  0:012    5. 4FFF6000: 'SSDT', 'PerfTune', Rev: 2, Len: 1462 -> SSDT-2-PerfTune.aml
+9:735  0:012    6. 4FFF4000: 'HPET', 'TP-N1M', Rev: 1, Len: 56 -> HPET.aml
+9:747  0:012    7. 4FFF3000: 'APIC', 'TP-N1M', Rev: 3, Len: 188 -> APIC.aml
+9:759  0:011    8. 4FFF2000: 'MCFG', 'TP-N1M', Rev: 1, Len: 60 -> MCFG.aml
+9:771  0:012    9. 4FFF1000: 'ECDT', 'TP-N1M', Rev: 1, Len: 83 -> ECDT.aml
+9:784  0:013    10. 4FFCD000: 'SSDT', 'ProjSsdt', Rev: 2, Len: 5671 -> SSDT-3-ProjSsdt.aml
+9:796  0:011    11. 4FFCC000: 'BOOT', 'TP-N1M', Rev: 1, Len: 40 -> BOOT.aml
+9:809  0:012    12. 4FFCB000: 'BATB', 'TP-N1M', Rev: 2, Len: 74 -> BATB.aml
+9:820  0:011    13. 4FFCA000: 'SLIC', 'TP-N1M', Rev: 1, Len: 374 -> SLIC.aml
+9:833  0:013    14. 4FFC8000: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6062
+9:833  0:000    15. 4FFC7000: 'SSDT', 'CtdpB', Rev: 2, Len: 1389
+9:833  0:000    16. 4FFC6000: 'SSDT', 'UsbCTabl', Rev: 2, Len: 1656
+9:833  0:000    17. 4FFC5000: 'WSMT', 'TP-N1M', Rev: 1, Len: 40 -> WSMT.aml
+9:844  0:011    18. 4FFC4000: 'SSDT', 'HdaDsp', Rev: 2, Len: 321 -> SSDT-4-HdaDsp.aml
+9:853  0:008    19. 4FFC3000: 'SSDT', 'TbtTypeC', Rev: 2, Len: 1293 -> SSDT-5-TbtTypeC.aml
+9:861  0:007    20. 4FFC2000: 'DBGP', 'TP-N1M', Rev: 1, Len: 52 -> DBGP.aml
+9:872  0:011    21. 4FFFD000: 'DBG2', 'TP-N1M', Rev: 0, Len: 84 -> DBG2.aml
+9:883  0:011    22. 4FFC0000: 'MSDM', 'TP-N1M', Rev: 3, Len: 85 -> MSDM.aml
+9:895  0:011    23. 4FFBF000: 'DMAR', 'TP-N1M', Rev: 1, Len: 168 -> DMAR.aml
+9:906  0:011    24. 4FFBE000: 'ASF!', 'TP-N1M', Rev: 32, Len: 160 -> ASF!.aml
+9:918  0:011    25. 4FFBD000: 'FPDT', 'TP-N1M', Rev: 1, Len: 68 -> FPDT.aml
+9:930  0:012    26. 4FF3B000: 'UEFI', 'TP-N1M', Rev: 1, Len: 318 -> UEFI.aml
+9:943  0:012    27. 4FFBC000: 'BGRT', 'TP-N1M', Rev: 1, Len: 56 -> BGRT.aml
+9:954  0:011    Tables in Rsdt: 28
+9:954  0:000    0. 4FFF5000: 'FACP', 'TP-N1M', Rev: 5, Len: 244 -> RSDT-FACP.aml
+9:967  0:013        (Dsdt: 4FFCF000, Facs: 4FF3E000, XDsdt: 4FFCF000, XFacs: 0)
+9:967  0:000        4FFCF000: 'DSDT', 'SKL', Rev: 2, Len: 136238 -> RSDT-DSDT.aml
+9:984  0:016        4FF3E000: 'FACS', Ver: 2, Len: 64 -> RSDT-FACS.aml
+9:992  0:008    1. 4FFFC000: 'SSDT', 'Tpm2Tabl', Rev: 2, Len: 972 -> RSDT-SSDT-6-Tpm2Tabl.aml
+10:000  0:007    2. 4FFFB000: 'TPM2', 'TP-N1M', Rev: 3, Len: 52 -> RSDT-TPM2.aml
+10:007  0:007    3. 4FF53000: 'UEFI', 'TP-N1M', Rev: 1, Len: 66 -> RSDT-UEFI.aml
+10:015  0:007    4. 4FFF7000: 'SSDT', 'SaSsdt', Rev: 2, Len: 12506
+10:015  0:000    5. 4FFF6000: 'SSDT', 'PerfTune', Rev: 2, Len: 1462
+10:015  0:000    6. 4FFF4000: 'HPET', 'TP-N1M', Rev: 1, Len: 56
+10:015  0:000    7. 4FFF3000: 'APIC', 'TP-N1M', Rev: 3, Len: 188
+10:015  0:000    8. 4FFF2000: 'MCFG', 'TP-N1M', Rev: 1, Len: 60
+10:015  0:000    9. 4FFF1000: 'ECDT', 'TP-N1M', Rev: 1, Len: 83
+10:015  0:000    10. 4FFCD000: 'SSDT', 'ProjSsdt', Rev: 2, Len: 5671
+10:015  0:000    11. 4FFCC000: 'BOOT', 'TP-N1M', Rev: 1, Len: 40
+10:015  0:000    12. 4FFCB000: 'BATB', 'TP-N1M', Rev: 2, Len: 74
+10:015  0:000    13. 4FFCA000: 'SLIC', 'TP-N1M', Rev: 1, Len: 374
+10:015  0:000    14. 4FFC8000: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6062
+10:015  0:000    15. 4FFC7000: 'SSDT', 'CtdpB', Rev: 2, Len: 1389
+10:015  0:000    16. 4FFC6000: 'SSDT', 'UsbCTabl', Rev: 2, Len: 1656
+10:015  0:000    17. 4FFC5000: 'WSMT', 'TP-N1M', Rev: 1, Len: 40
+10:015  0:000    18. 4FFC4000: 'SSDT', 'HdaDsp', Rev: 2, Len: 321
+10:015  0:000    19. 4FFC3000: 'SSDT', 'TbtTypeC', Rev: 2, Len: 1293
+10:015  0:000    20. 4FFC2000: 'DBGP', 'TP-N1M', Rev: 1, Len: 52
+10:015  0:000    21. 4FFFD000: 'DBG2', 'TP-N1M', Rev: 0, Len: 84
+10:015  0:000    22. 4FFC0000: 'MSDM', 'TP-N1M', Rev: 3, Len: 85
+10:015  0:000    23. 4FFBF000: 'DMAR', 'TP-N1M', Rev: 1, Len: 168
+10:015  0:000    24. 4FFBE000: 'ASF!', 'TP-N1M', Rev: 32, Len: 160
+10:015  0:000    25. 4FFBD000: 'FPDT', 'TP-N1M', Rev: 1, Len: 68
+10:015  0:000    26. 4FF3B000: 'UEFI', 'TP-N1M', Rev: 1, Len: 318
+10:015  0:000    27. 4FFBC000: 'BGRT', 'TP-N1M', Rev: 1, Len: 56
+10:015  0:000  Found UEFI Acpi 1.0 RSDP at 4FFFE000
+10:015  0:000  Printing ACPI tables from RSDP 4FFFE000 ...
+10:015  0:000   4FFFE000: 'RSD PTR ', Rev: 0 (Acpi 1.0), Len: 20
+10:015  0:000    (Rsdt: 4FFC1000)
+10:015  0:000    4FFC1000: 'RSDT', 'TP-N1M', Rev: 1, Len: 144
+10:015  0:000    Tables in Rsdt: 27
+10:015  0:000    0. 4FFF5000: 'FACP', 'TP-N1M', Rev: 5, Len: 244
+10:015  0:000        (Dsdt: 4FFCF000, Facs: 4FF3E000, XDsdt: 4FFCF000, XFacs: 0)
+10:015  0:000        4FFCF000: 'DSDT', 'SKL', Rev: 2, Len: 136238
+10:017  0:001        4FF3E000: 'FACS', Ver: 2, Len: 64
+10:017  0:000    1. 4FFFC000: 'SSDT', 'Tpm2Tabl', Rev: 2, Len: 972
+10:017  0:000    2. 4FFFB000: 'TPM2', 'TP-N1M', Rev: 3, Len: 52
+10:017  0:000    3. 4FF53000: 'UEFI', 'TP-N1M', Rev: 1, Len: 66
+10:017  0:000    4. 4FFF7000: 'SSDT', 'SaSsdt', Rev: 2, Len: 12506
+10:017  0:000    5. 4FFF6000: 'SSDT', 'PerfTune', Rev: 2, Len: 1462
+10:017  0:000    6. 4FFF4000: 'HPET', 'TP-N1M', Rev: 1, Len: 56
+10:017  0:000    7. 4FFF3000: 'APIC', 'TP-N1M', Rev: 3, Len: 188
+10:017  0:000    8. 4FFF2000: 'MCFG', 'TP-N1M', Rev: 1, Len: 60
+10:017  0:000    9. 4FFF1000: 'ECDT', 'TP-N1M', Rev: 1, Len: 83
+10:017  0:000    10. 4FFCD000: 'SSDT', 'ProjSsdt', Rev: 2, Len: 5671
+10:017  0:000    11. 4FFCC000: 'BOOT', 'TP-N1M', Rev: 1, Len: 40
+10:017  0:000    12. 4FFCB000: 'BATB', 'TP-N1M', Rev: 2, Len: 74
+10:017  0:000    13. 4FFC8000: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6062
+10:017  0:000    14. 4FFC7000: 'SSDT', 'CtdpB', Rev: 2, Len: 1389
+10:017  0:000    15. 4FFC6000: 'SSDT', 'UsbCTabl', Rev: 2, Len: 1656
+10:017  0:000    16. 4FFC5000: 'WSMT', 'TP-N1M', Rev: 1, Len: 40
+10:017  0:000    17. 4FFC4000: 'SSDT', 'HdaDsp', Rev: 2, Len: 321
+10:017  0:000    18. 4FFC3000: 'SSDT', 'TbtTypeC', Rev: 2, Len: 1293
+10:017  0:000    19. 4FFC2000: 'DBGP', 'TP-N1M', Rev: 1, Len: 52
+10:017  0:000    20. 4FFFD000: 'DBG2', 'TP-N1M', Rev: 0, Len: 84
+10:017  0:000    21. 4FFC0000: 'MSDM', 'TP-N1M', Rev: 3, Len: 85
+10:017  0:000    22. 4FFBF000: 'DMAR', 'TP-N1M', Rev: 1, Len: 168
+10:017  0:000    23. 4FFBE000: 'ASF!', 'TP-N1M', Rev: 32, Len: 160
+10:017  0:000    24. 4FFBD000: 'FPDT', 'TP-N1M', Rev: 1, Len: 68
+10:017  0:000    25. 4FF3B000: 'UEFI', 'TP-N1M', Rev: 1, Len: 318
+10:017  0:000    26. 4FFBC000: 'BGRT', 'TP-N1M', Rev: 1, Len: 56
