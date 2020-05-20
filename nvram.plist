@@ -16,19 +16,55 @@
 	</data>
 	<key>SystemAudioVolume</key>
 	<data>
-	Ow==
+	OA==
 	</data>
 	<key>SystemAudioVolumeDB</key>
 	<data>
-	8Q==
+	7g==
+	</data>
+	<key>aapl,panic-info</key>
+	<data>
+	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
 	</data>
 	<key>backlight-level</key>
 	<data>
-	tgE=
+	QAE=
 	</data>
 	<key>bluetoothActiveControllerInfo</key>
 	<data>
-	KwqHgAAAAAAwFAAo+CXejA==
+	KwqHgAAAAABQFAAAAAAAAA==
+	</data>
+	<key>bluetoothInternalControllerInfo</key>
+	<data>
+	j4KsBQAAUxSY4NmP6aI=
 	</data>
 	<key>csr-active-config</key>
 	<data>
