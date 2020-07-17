@@ -8,7 +8,7 @@
 		<array>
 			<dict>
 				<key>Comment</key>
-				<string>SSDT-ALS0.aml</string>
+				<string>Brightness preservation</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
@@ -24,7 +24,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>SSDT-EXT1-FixShutdown.aml</string>
+				<string>Fix reboot after shutdown</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
@@ -32,7 +32,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>SSDT-EXT3-LedReset-TP.aml</string>
+				<string>TP Light blink fix</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
@@ -40,7 +40,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>SSDT-EXT4-WakeScreen.aml</string>
+				<string>PTSWAK EXT4</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
@@ -48,7 +48,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>SSDT-GPRW.aml</string>
+				<string>Fix instance wake</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
@@ -56,7 +56,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>SSDT-HPET.aml</string>
+				<string>HPET_CTS</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
@@ -64,7 +64,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>SSDT-Keyboard.aml</string>
+				<string>Thinkpad keyboard</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
@@ -80,15 +80,15 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>SSDT-OCBAT0-TP_tx80_x1c6th.aml</string>
+				<string></string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
-				<string>SSDT-OCBAT0-TP_tx80_x1c6th.aml</string>
+				<string>SSDT-OCBAT0-TP_re80_tx70_x1c5th_s12017_p51.aml</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>SSDT-PLUG-_PR.PR00.aml</string>
+				<string>Intel power management</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
@@ -104,7 +104,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>SSDT-PNLF-SKL_KBL.aml</string>
+				<string>Brightness adjustment</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
@@ -112,7 +112,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>SSDT-PTSWAK.aml</string>
+				<string>Sleep/wake patch</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
@@ -968,33 +968,6 @@
 	<dict>
 		<key>Add</key>
 		<dict>
-			<key>PciRoot(0x0)/Pci(0x1C,0x2)/Pci(0x0,0x0)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,28,2/0,0</string>
-				<key>device_type</key>
-				<string>Network controller</string>
-				<key>model</key>
-				<string>Intel Dual Band Wireless-AC 8265</string>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x1C,0x4)/Pci(0x0,0x0)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,28,4/0,0</string>
-				<key>device_type</key>
-				<string>Non-Volatile memory controller</string>
-				<key>model</key>
-				<string>XG4 NVMe SSD Controller</string>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x1F,0x6)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,31,6</string>
-				<key>device_type</key>
-				<string>Ethernet controller</string>
-				<key>model</key>
-				<string>Ethernet Connection (4) I219-V</string>
-			</dict>
 			<key>PciRoot(0x0)/Pci(0x1f,0x3)</key>
 			<dict>
 				<key>layout-id</key>
@@ -1524,7 +1497,7 @@
 			<key>4D1EDE05-38C7-4A6A-9CC6-4BCCA8B38C14</key>
 			<dict>
 				<key>UIScale</key>
-				<data>AQ==</data>
+				<data>Ag==</data>
 			</dict>
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
 			<dict>
