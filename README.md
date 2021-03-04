@@ -8,11 +8,11 @@ I'm using Intel WiFi and network is made possible by [@OpenIntelWireless](https:
 ## Current running OS  
 macOS Catalina 10.15.6
 
-## SPECIFICATIONS
+## Specifications
 Model: ThinkPad X1 Carbon 5th Gen (2017)
 | Processor Number                                                                                                                   | # of Cores | # of Threads | Base Frequency | Max Turbo Frequency | Cache | Memory Types | Graphics      |
 | :--------------------------------------------------------------------------------------------------------------------------------- | :--------- | :----------- | :------------- | :------------------ | :---- | :----------- | :------------ |
-| i5-7300U | 2          | 4            | 2.6 GHz        | 3.5 GHz             | 3 MB  | LPDDR3-2133  | Intel HD 620 |
+| i5-7300U | 2          | 4            | 2.6 GHz        | 3.5 GHz             | 3 MB  | LPDDR3-1867  | Intel HD 620 |
 
 **Peripherals:**
 
